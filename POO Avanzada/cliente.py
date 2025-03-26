@@ -1,12 +1,18 @@
 class Cliente:
+    """Clase de tipo cliente Base
+    """    
     def __init__(self,id,nombre,email,direccion):
         self.__id = id
         self.__nombre = nombre
         self.__email = email
         self.__direccion = direccion
-
+        """Constructor de la clase Cliente,
+        Sus argumentos son nombre, id,
+        """    
     def get_id_cliente(self):
         return self.__id
+        """
+        """    
     
     def set_id_cliente(self,id_nuevo):
         self.__id = id_nuevo
