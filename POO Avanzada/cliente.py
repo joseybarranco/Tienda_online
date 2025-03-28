@@ -1,6 +1,8 @@
 class Cliente:
+    
     """Clase de tipo cliente Base
     """    
+    
     def __init__(self,id,nombre,email,direccion):
         """Constructor de la clase cliente
 
@@ -93,7 +95,7 @@ class Cliente:
     def __str__(self):
         """Devuelve los valores del objeto cliente formateado.
         """        
-        
+
         return(f'ID: {self.__id}\nNombre: {self.__nombre}\nE-mail: {self.__email}\nDirección: {self.__direccion}')
     
     
