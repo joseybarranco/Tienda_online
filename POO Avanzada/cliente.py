@@ -32,6 +32,10 @@ class Cliente:
     
     def set_id_cliente(self,id_nuevo):
         self.__id = id_nuevo
+        """Cambia el valor de id del objeto cliente.
+            :param arg1: Valor que va a tomar el nuevo id.
+            :type arg1: string
+        """        
                
     def get_nombre_cliente(self):
         """Devuelve el nombre del cliente al ser un atributo privado.
@@ -43,7 +47,9 @@ class Cliente:
     
     def set_nombre_cliente(self,nombre_nuevo):
         self.__nombre = nombre_nuevo
-
+        """:param arg1:Valor que va a tomar el nombre nuevo
+            :type arg1:string
+        """    
     def get_email(self):
         """Devuelve el valor del nombre de cliente al ser un atributo privado
 
@@ -54,8 +60,14 @@ class Cliente:
     
     def set_email(self,email_nuevo):
         self.__email = email_nuevo
-
+        """:param arg1: Valor del email nuevo
+        """        
     def get_direccion(self):
+        """_summary_
+
+        Returns:
+            string: devuelve el valor que tiene self.__direccion 
+        """        
         return self.__direccion
     
     def set_direccion(self,direccion_nueva):
