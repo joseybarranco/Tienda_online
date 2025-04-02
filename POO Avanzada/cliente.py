@@ -7,13 +7,13 @@ class Cliente:
         """Constructor de la clase cliente
 
         :param id: numero de identificación del cliente.
-        :type id: string
+        :type id: str
         :param nombre: nombre del cliente
-        :type nombre: string
+        :type nombre: str
         :param email: email del cliente
-        :type email: string
+        :type email: str
         :param direccion: dirección del cliente
-        :type direccion: string
+        :type direccion: str
         """        
         self.__id = id
         self.__nombre = nombre
@@ -25,7 +25,7 @@ class Cliente:
         """Devuelve el self.__id
 
         :return: devuelve self.__id
-        :rtype: string
+        :rtype: str
         """    
         return self.__id
         
@@ -34,7 +34,7 @@ class Cliente:
         """Cambiar el valor del id por el id_nuevo
 
         :param id_nuevo: valor nuevo del atributo self.__id
-        :type id_nuevo: string
+        :type id_nuevo: str
         """        
         self.__id = id_nuevo
         
@@ -44,7 +44,7 @@ class Cliente:
         """Devuelve el nombre del cliente al ser un atributo privado.
 
         :return: nombre del cliente
-        :rtype: string
+        :rtype: str
         """        
         
         return self.__nombre
@@ -53,7 +53,7 @@ class Cliente:
         """Cambia el nombre de cliente
 
         :param nombre_nuevo: Valor que va a tomar self.__nombre
-        :type nombre_nuevo: string
+        :type nombre_nuevo: str
         """        
         self.__nombre = nombre_nuevo
            
@@ -61,7 +61,7 @@ class Cliente:
         """Devuelve el valor de email
 
         :return: valor de self.__email
-        :rtype: string
+        :rtype: str
         """        
         
         return self.__email
@@ -70,14 +70,14 @@ class Cliente:
         """Cambia el valor de self.__email
 
         :param email_nuevo: Valor del email nuevo
-        :type email_nuevo: string
+        :type email_nuevo: str
         """        
         self.__email = email_nuevo
         
     def get_direccion(self):
         """Devuelve el valor de direccion
         :return: Devuelve el valor de la dirección.
-        :rtype: string
+        :rtype: str
         """        
           
         return self.__direccion
@@ -86,15 +86,19 @@ class Cliente:
         """Cambia el valor de self.__direccion
 
         :param direccion_nueva:valor del atributyo self.__direccion
-        :type direccion_nueva: string
+        :type direccion_nueva: str
         """        
         self.__direccion = direccion_nueva
        
               
 
     def __str__(self):
+      
         """Devuelve los valores del objeto cliente formateado.
-        """        
+
+        :return: Devuelve los valores del objeto producto formateados.
+        :rtype: str
+        """               
 
         return(f'ID: {self.__id}\nNombre: {self.__nombre}\nE-mail: {self.__email}\nDirección: {self.__direccion}')
     
