@@ -31,7 +31,7 @@ class Cliente:
         
     
     def set_id_cliente(self,id_nuevo):
-        """_summary_
+        """Cambiar el valor del id por el id_nuevo
 
         :param id_nuevo: valor nuevo del atributo self.__id
         :type id_nuevo: string
