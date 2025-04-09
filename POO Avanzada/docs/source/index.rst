@@ -1,5 +1,5 @@
 .. TiendaOnline documentation master file, created by
-   sphinx-quickstart on Fri Apr  4 12:20:50 2025.
+   sphinx-quickstart on Mon Apr  7 14:32:24 2025.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
@@ -10,7 +10,7 @@ Welcome to TiendaOnline's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
+   modules
 
 Indices and tables
 ==================
