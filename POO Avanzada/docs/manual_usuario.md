@@ -33,7 +33,7 @@ Pasos detallados para instalar y configurar la aplicación.
 - Cómo registrarse  No hay registro en el proyecto
 - Cómo iniciar sesión  No hay inicio de sesión.
 - Recuperación de contraseña  No hay login por lo que no se necesita contraseña.
-- Diferentes roles de usuario: Administrador, Usuario, Cliente
+- Diferentes roles de usuario: Administradorsuario, Cliente
 
 ---
 
@@ -41,7 +41,7 @@ Pasos detallados para instalar y configurar la aplicación.
 Ver archivo de diagrama de casos de Uso.
 
 ### 4.1 Gestión de Usuarios
-- Ver, añadir y eliminar usuarios, clientes, Administradores.  
+- Ver, añadir y eliminar  clientes.  
 
 ```plaintext
 🔹 Para crear un usuario, ir a **Usuarios → Nuevo Usuario**  
@@ -52,16 +52,12 @@ Ver archivo de diagrama de casos de Uso.
 -No hay base de datos.
 
 ### 4.3 Configuración del Sistema
-- Cambio de idioma.  
-- Modificación de parámetros del sistema.
+- No está implementado
 
 ---
 
 ## 5. Configuración y Personalización
-- Cambiar idioma  
-- Editar perfil de usuario  
-- Ajustes de seguridad  
-- Configuración de preferencias personales
+- No está implementado.
 
 ---
 
